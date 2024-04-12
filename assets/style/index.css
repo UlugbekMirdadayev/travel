@@ -96,6 +96,10 @@ header nav .actions {
   gap: 145px;
 }
 
+.reverse {
+  flex-direction: row-reverse;
+}
+
 .intro .left {
   width: 50%;
 }
@@ -165,4 +169,26 @@ header nav .actions {
   width: 100%;
   max-width: 680px;
   object-fit: contain;
+}
+
+/* section second */
+
+.title_section {
+  color: rgb(0, 0, 0);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+
+.description {
+  color: rgb(125, 121, 135);
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.section_btn{ 
+  padding: 15px 35px;
+  margin-top: 40px;
 }

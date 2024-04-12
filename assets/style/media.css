@@ -70,6 +70,9 @@
     background-size: contain;
     margin-bottom: 70px;
   }
+  .intro.reverse {
+    background-image: url("../images/section.png");
+  }
   .intro .left,
   .intro .right {
     width: 100%;
@@ -80,6 +83,9 @@
 
   .intro .left {
     background-color: rgba(255, 255, 255, 0.5);
+  }
+  .intro.reverse .left {
+    background-color: rgba(255, 255, 255, 0.82);
   }
   .intro .left form .form-group .form-control {
     background-color: rgba(255, 255, 255, 0.7);
@@ -103,6 +109,13 @@
 @media (max-width: 520px) {
   .container {
     max-width: 420px;
+  }
+  .title_section {
+    font-size: 25px;
+    line-height: 1;
+    margin-bottom: 25px;
+    text-align: center;
+    text-wrap: balance;
   }
 }
 
@@ -153,6 +166,9 @@
     padding: 8px 20px;
     border-radius: 5px;
     font-size: 13px;
+  }
+  .section_btn {
+    width: 100%;
   }
 }
 
