@@ -45,6 +45,28 @@
   .intro .left form .form-group .form-control select {
     padding: 15px 20px;
   }
+  .wrapper {
+    margin-bottom: 150px;
+  }
+  .wrapper h1.title {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .wrapper .row .link-item {
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .wrapper .row {
+    margin-bottom: 25px;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .cards a {
+    width: 100%;
+  }
 } /* min desktop  */
 
 @media (max-width: 960px) {
@@ -69,9 +91,14 @@
     background-image: url("../images/intro.png");
     background-size: contain;
     margin-bottom: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   .intro.reverse {
     background-image: url("../images/section.png");
+  }
+  .intro.download-section {
+    background-image: url("../images/download-section.png");
   }
   .intro .left,
   .intro .right {
@@ -116,6 +143,27 @@
     margin-bottom: 25px;
     text-align: center;
     text-wrap: balance;
+  }
+  .wrapper {
+    margin-bottom: 70px;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .cards a {
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .cards a .card-content {
+    width: 100%;
+    text-align: center;
+    border-radius: 0px;
+  }
+  .wrapper h1.title {
+    font-size: 20px;
+    line-height: 1;
   }
 }
 
@@ -175,6 +223,26 @@
 @media (max-width: 375px) {
   .container {
     max-width: 320px;
+  }
+  .wrapper h1.title {
+    font-size: 17px;
+  }
+  .wrapper .row .link-item {
+    font-size: 12px;
+  }
+  .wrapper .row {
+    margin-bottom: 20px;
+  }
+  .cards a .card-content{
+    padding: 8px;
+  }
+  .cards a .card-content h3.card-title{
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .cards a .card-content p.card-description{
+    font-size: 14px;
+    line-height: 16px;
   }
 }
 
